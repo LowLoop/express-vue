@@ -11,7 +11,6 @@ var flash = require('connect-flash');
 var ejs = require('ejs');//引入ejs
 
 var index = require('./routes/index');
-var users = require('./routes/users');
 
 //var register = require('./routes/registerRoute');
 

@@ -5,10 +5,10 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var session = require('express-session');
-var flash = require('connect-flash');
+//var flash = require('connect-flash');
 //var routes = require('./routes');
 
-var ejs = require('ejs');//引入ejs
+//var ejs = require('ejs');//引入ejs
 
 var index = require('./routes/index');
 
@@ -21,9 +21,9 @@ var app = express();
 app.set('view engine', 'jade');*/
 
 //这两句是使用html模板
-app.set('views', path.join(__dirname, 'dist'));
+/*app.set('views', path.join(__dirname, 'dist'));
 app.engine("html",ejs.__express);//设置html模板
-app.set("view engine", "html");//设置视图引擎
+app.set("view engine", "html");//设置视图引擎*/
 /*app.engine("html",ejs.__express);
 app.set('views', path.join(__dirname, 'dist'));// 设置存放模板文件的目录
 app.set('view engine', 'html');// 设置模板引擎为 html*/
